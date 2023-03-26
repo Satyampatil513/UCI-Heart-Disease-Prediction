@@ -38,7 +38,7 @@ We have used following models for clustering of target variable with their corre
 
 
 ### Final Function
-The function heart_disease_classification() takes in two arguments - *x_test* and *model*.
+The function heart_disease_classification() takes in two arguments **x_test** and **model**.
 
 x_test is a list of 13 parameters representing the input features for predicting the presence or absence of heart disease.
 
@@ -57,4 +57,4 @@ Overall, the function provides a quick way to obtain the probability of heart di
 ### Conclusion
 The developed machine learning model provides a promising approach to predict the likelihood of a heart patient experiencing a heart attack. The model is trained and evaluated using appropriate performance metrics, achieving high accuracy, sensitivity, specificity, and ROC AUC scores. The model takes in a set of input features for a given patient and outputs a probability or score indicating the likelihood of a heart attack occurring within a specific time frame. The heart_disease_classification() function provides a convenient way to obtain the probability of heart disease given a set of input features using a pre-trained machine learning model. This model and function can potentially be used as a tool to assist healthcare professionals in early detection and prevention of cardiovascular disease, leading to improved patient outcomes and quality of life.
 
-*Note:-* The finalized model is *RandomForestClassifier* which is selected on the basis of it's accuracy score
+**Note:** The finalized model is **RandomForestClassifier** which is selected on the basis of it's accuracy score
