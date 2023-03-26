@@ -1,7 +1,9 @@
-# Software-Hackathon
-Code and relevant report submission for the software hackathon in AI/ML at IIT Ropar's ZEITGEIST
 
 # UCI Heart Disease Prediction
+
+### Software-Hackathon
+Code and relevant report submission for the software hackathon in AI/ML at IIT Ropar's ZEITGEIST.
+
 ### Overview
 Cardiovascular disease (CVD) is the leading cause of death worldwide. Early detection and accurate prediction of CVD can help prevent serious complications such as heart attacks and strokes.
 
@@ -12,13 +14,13 @@ The developed machine learning model is evaluated using appropriate performance 
 The model is able to take in a set of input features for a given patient and output a probability or score indicating the likelihood of a heart attack occurring within a specific time frame.
 
 ### Dataset
-The *dataset.csv* dataset from UCI contains various features related to the health of individuals. The dataset has a total of 303 instances, with 13 input features including age, sex, chest pain type, resting blood pressure, serum cholesterol level, fasting blood sugar level, electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, slope of the peak exercise ST segment, number of major vessels colored by fluoroscopy, and thallium stress test results.
+The **dataset.csv** dataset from UCI contains various features related to the health of individuals. The dataset has a total of 303 instances, with 13 input features including age, sex, chest pain type, resting blood pressure, serum cholesterol level, fasting blood sugar level, electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, slope of the peak exercise ST segment, number of major vessels colored by fluoroscopy, and thallium stress test results.
 
 The target attribute of the dataset is "num," where the dataset is classified into 5 classes, namely 0, 1, 2, 3, and 4, based on the severity of getting heart disease. However, since the size of the dataset is not large enough to cluster data into 5 classes with good accuracy, it has been converted into binary classification 0 and 1, indicating the absence or presence of heart disease, respectively.
 
 The source of the dataset is the [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease).
 
-We have provided the updated dataset for reference.
+*We have provided the updated dataset for reference which is a combination of the datasets referenced above.*
 
 ### Models
 
@@ -26,7 +28,7 @@ We have used following models for clustering of target variable with their corre
 
 | Models            | Accuracy | Sensitivity | Specificity |  ROC AUC |
 | :--------------   | :------- | :-------    |:----------  |:-------|
-| *Random Forest*    | *0.95* |   *0.93* | *0.96* | *0.97*|
+| **Random Forest**    | **0.95** |   **0.93** | **0.96** | **0.97**|
 | Gradient Boost    | 0.90 |   0.93  | 0.85 | 0.95|
 |Adaboost           | 0.90 |   0.93  | 0.85 | 0.92|
 |Extra Trees Classifier| 0.90 | 0.96 | 0.82 | 0.97|
