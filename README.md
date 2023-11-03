@@ -60,4 +60,4 @@ The developed machine learning model provides a promising approach to predict th
 **Note:** The finalized model is **RandomForestClassifier** which is selected on the basis of it's accuracy score.
 
 
-*Team Members : Akarshan Kapoor, Bhumesh Gaur*
+*Team Members : Akarshan Kapoor, Bhumesh Gaur, Satyam Patil*
